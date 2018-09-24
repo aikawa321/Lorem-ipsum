@@ -11,23 +11,33 @@
 		<header>
 			<nav class="nav-outline-box">
 				<ul class="nav-contents">
-					<li class="nav-content">Portfolio</li>
-					<li class="nav-content">Feature</li>
-					<li class="nav-content">Profile</li>
-					<li class="nav-content">Contact</li>
-					<img class="header-logo" src="img/logo.png">
+					<a href="#main-visual-box">
+						<img class="header-logo" src="img/logo.png">
+					</a>
+					<li class="nav-content">
+						<a href="#contact-contents">Contact</a>
+					</li>
+					<li class="nav-content">
+						<a href="#profile-contents">Profile</a>
+					</li>
+					<li class="nav-content">
+						<a href="#feature-contents">Feature</a>
+					</li>
+					<li class="nav-content">
+						<a href="#portfolio-contents">Portfolio</a>
+					</li>
 				</ul>
 			</nav>
 		</header>
-		<main class="main crearfix">
+		<main class="main">
 			<!-- main-visual -->
-			<div class="main-visual-box">
+			<div id="main-visual-box">
 				<p class="main-visual-text">Lorem Ipsum</p>
 				<p class="sub-text">simply dummy text of the printing</p>
 			</div>
 			 	<!-- section.1 PortFolio -->
-				<section class="portfolio-contents">
-				  	<div class="pf-in-box">
+				<section id="portfolio-contents">
+				  	<div class="pf-in-box clearfix">
 						<h2 class="portfolio">Portfolio</h2>
 						<p class="pf-txt">it is a long established fact that a reader will be distracted by the readable<br>content of a page when looking at its layout.<br>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
 						<div class="img-box"></div>
@@ -39,7 +49,7 @@
 				 	</div>
 				</section>
 				<!-- section.2 Feature -->
-				<section class="feature-contents">
+				<section id="feature-contents">
 					<h2>Feature</h2>
 					<p class="feture-txt">it is a long established fact that a reader will be distracted by the readable<br>content of a page when looking at its layout.<br>Thepoint of using Lorem Ipusum is that it has a more-less normal deistributionn of lettes</p>
 						<!-- logo用div -->
@@ -48,7 +58,7 @@
 						<i class="fas fa-star fa-spin"></i>
 						<i class="fas fa-bullhorn"></i>
 					</div>
-					<div class="strength">
+					<div class="strength clearfix">
 						<div class=st-list>
 							<li>Strength1</li>
 							<li>Strength2</li>
@@ -62,8 +72,8 @@
 					</div>
 				</section>
 				<!-- section.3 Proflie -->
-				<section class="profile-contents">
-					<div class="prf-in-box">
+				<section id="profile-contents">
+					<div class="prf-in-box clearfix">
 						<h2 class="prf-headline">Profile</h2>
 						<p class="prf-txt">it is a long established fact that a reader will be distracted by the readable<br>content of a page when looking at its layout.<br>The point of using Lorem Ipusum is that it has amotr-or-less birnak distribution of letters</p>
 					  	<div class="prf-main">
@@ -72,7 +82,7 @@
 						 	</div>
 							<div class="about-me">
 								<h3 class="me-headline">MyName</h3>
-								<p class="me-txt">Contrary to pupular belief,Lorem Ipusum<br>is not simply random text. it has roots<br>in a piece of classical Latin literature<br>from 45 BC,making it over 2000 years<br>old.Richard McClintock, a Latin<br>professor at Hampden-Sydney College<br>in Virgina,looked up one of the more<br>obscure Latin words,consecteur.</p>
+								<p class="me-txt">Contrary to pupular belief,Lorem Ipusum is not simply random<br>text. it has roots in a piece of classical Latin literature from 45<br>BC,making it over 2000 years old.Richard McClintock, a Latin<br>professor at Hampden-Sydney College in Virgina,looked up one<br>of the more obscure Latin words,consecteur.</p>
 								<h3 class="me-headline">MySkill</h3>
 								<p class="me-txt">HTML/CSS/JavaScript/JQuery/Photoshop</p>
 							</div>
@@ -80,26 +90,28 @@
 					</div>
 				</section>
 				<!-- section.4 Contact -->
-				<section class="contact-contents">
+				<section id="contact-contents">
 					<div class="cc-box">
 						<h2>Contact</h2>
 						<p class="contact-txt">it is a long established fact that a reader will be distracted by the readable<br>content of a page when looking at its layout.<br>The point of using Lorem Ipusum is that it has amotr-or-less birnak distribution of letters</p>
-						<div class="mail-tell-box">
-							<div class="in-box">
-								<h3 class="mail">Mail</h3>
-								<p class="adress">webcamp-pro@xxx.com</p>
-								<h3 class="tell">Tell</h3>
-								<p class="phone-number">030-1111-2222</p>
+						<div class="cc-main">
+							<div class="mail-tell-box">
+								<div class="in-box">
+									<h3 class="mail">Mail</h3>
+									<p class="adress">webcamp-pro@xxx.com</p>
+									<h3 class="tell">Tell</h3>
+									<p class="phone-number">030-1111-2222</p>
+								</div>
 							</div>
-						</div>
-						<div class="sns-box">
-							<div class="in-box">
-								<h3 class="sns">SNS</h3>
-								<!-- snsのアイコン用のdiv -->
-								<div class=sns-icon>
-									<i class="fab fa-twitter"></i>
-									<i class="fab fa-facebook-f"></i>
-									<i class="fab fa-instagram"></i>
+							<div class="sns-box">
+								<div class="in-box clearfix">
+									<h3 class="sns">SNS</h3>
+									<!-- snsのアイコン用のdiv -->
+									<div class=sns-icon>
+										<i class="fab fa-twitter"></i>
+										<i class="fab fa-facebook-f"></i>
+										<i class="fab fa-instagram"></i>
+									</div>
 								</div>
 							</div>
 						</div>
